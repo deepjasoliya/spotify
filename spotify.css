@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@200&family=Nanum+Gothic+Coding&family=Red+Hat+Display:wght@300&family=Source+Sans+Pro:wght@200;400&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    display:flex;
+    align-items: center;
+    height: 65px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.logo img{
+    height: 45px;
+    padding: 0px 10px;
+}
+li.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+nav ul li{
+    padding: 0px 20px;
+}
+.logo{
+    padding-left: 0px;
+}
+.bottom{
+    height: 110px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+}
+#rang{
+    width: 80vw;
+}
+.container{
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 72vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin: 23px auto;
+    width: 70%;
+    padding: 12px;
+    background-image: url('bg.jpg');
+    background-size: 1150px;
+    background-repeat: no-repeat;
+}
+.he{
+    height: 45px;
+}
+.icon{
+    display: flex;
+    gap:20px;
+}
+.songItem{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    background-color: rgba(240, 248, 255, 0.377);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 38px;
+    width: 384px;
+padding-left: 0px;
+}
+.songItem img{
+    padding-left: 5px;
+    height:25px ;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.time{
+    
+}
+.name{
+    margin-left: 10px;
+}
+.photo{
+    display: flex;
+    align-items: center;
+}
+.songinfo{
+    padding-top: 40px;
+    position: absolute;
+    left: 150px;
+}
+.songinfo img{
+    height: 20px;
+    width: 400px;
+}
+#gif{
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}
